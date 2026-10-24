@@ -1,4 +1,4 @@
-# STREAPEX Privacy Policy
+# StreApex Privacy Policy
 
 **Effective date:** 24 October 2026  
 **Last updated:** 24 October 2026
