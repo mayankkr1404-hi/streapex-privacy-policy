@@ -100,13 +100,19 @@ Retention periods may differ by data type and service. We have not specified a f
 
 ## 7. Account deletion and privacy requests
 
-To request account deletion or ask about your personal information, email **streapex14@gmail.com** from the email address associated with your StreApex account, if possible. Include “StreApex – Privacy Request” in the subject line and explain your request. Do not send your password.
+You can delete your StreApex account from within the App through **Settings → Delete Account**. The in-app deletion process is designed to provide a direct way for you to permanently delete your account and associated App data.
 
-We will review and respond to requests in accordance with applicable law and may ask for reasonable information to verify the requester's identity.
+Before deletion is completed, the App may require you to verify your email address and re-authenticate with your account password. These steps are used to help prevent an unauthorized person from deleting your account.
 
-Deleting an account should not be assumed to automatically remove every item held by every service. Before confirming deletion, we will need to identify the App's account-deletion process and ensure that associated Firestore records and other relevant data are handled appropriately. Some information may be retained where legally required or for legitimate security purposes, as permitted by law.
+When an account deletion is successfully completed, StreApex deletes the Firebase Authentication account and the account-specific cloud data associated with the App that is handled through the deletion process, including the user's applicable Firestore records. Account-specific locally stored information on the device is also cleared as part of the deletion process.
 
-**Implementation note for the publisher:** This policy currently reflects that users contact support to request deletion. Ensure that requests are actually handled and that any applicable Google Play account-deletion requirements are met, including any required in-app and web-based deletion paths.
+After successful deletion, you will be signed out and returned to the App's Welcome Back/login screen. The deleted Firebase account cannot be used to sign in again unless a new account is created.
+
+Some information may be retained where legally required, necessary for security or fraud prevention, or otherwise permitted by applicable law. Third-party services may also retain information according to their own policies and retention practices.
+
+If you cannot use the in-app deletion process or have a privacy-related request, you may contact us at **streapex14@gmail.com** from the email address associated with your StreApex account, if possible. Include “StreApex – Privacy Request” in the subject line and explain your request. Do not send your password.
+
+We will review and respond to privacy requests in accordance with applicable law and may ask for reasonable information to verify the requester's identity.
 
 ## 8. Security
 
